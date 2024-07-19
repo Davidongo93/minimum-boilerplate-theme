@@ -1,0 +1,31 @@
+
+{
+  "flex-layout.row#textos": {
+    "title": "flex layout row texto 1",
+    "children": [
+"flex-layout.col#texto-uno",
+"flex-layout.col#texto-dos"
+    ]
+  },
+  "flex-layout.col#texto-uno": {
+    "title": "flex layout col texto 2",
+    "children": [
+      "rich-text"
+    ]
+  },
+  "flex-layout.col#texto-dos": {
+    "title": "flex layout col texto 2",
+    "children": [
+      "rich-text"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "title":"Texto home",
+      "text": "Hola mundo desde componente demo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  }
+}

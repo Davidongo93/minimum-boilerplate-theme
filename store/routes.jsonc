@@ -1,0 +1,11 @@
+{
+    "routes": [
+      {
+        "path": "/",
+        "blocks": [
+          "store.home"
+        ]
+      }
+    ]
+  }
+  
