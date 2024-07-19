@@ -46,10 +46,10 @@
   },
   "logo": {
     "props": {
-      "title": "Logo",
+      "title": "LogoITG",
       "href": "/",
       "url": "assets/img/iconblack.png",
-      "width": "80"
+      "width": "auto"
     }
   },
   "header-layout.mobile": {

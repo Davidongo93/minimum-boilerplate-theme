@@ -11,13 +11,19 @@
     "title": "flex layout col texto 2",
     "children": [
       "rich-text"
-    ]
+    ],
+    "props": {
+      "width" :"80%"
+    }
   },
   "flex-layout.col#texto-dos": {
     "title": "flex layout col texto 2",
     "children": [
       "rich-text"
-    ]
+    ],
+    "props": {
+      "width" :"20%"
+    }
   },
   "rich-text": { 
     "props": { 
