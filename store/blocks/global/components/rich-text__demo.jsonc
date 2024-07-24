@@ -13,7 +13,8 @@
       "rich-text"
     ],
     "props": {
-      "width" :"80%"
+      "width" :"80%",
+      "blockClass": ["textstyle"]
     }
   },
   "flex-layout.col#texto-dos": {

@@ -10,17 +10,26 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["flex-layout.col#cardcolumn", "rich-text#2", "rich-text#3"]
+    "children": ["image#cardimage1", "flex-layout.row#card"]
   },
-  "flex-layout.col#cardcolumn": {
-    "title": "card column",
-    "children": ["image#cardimage1"]
+  "flex-layout.row#card": {
+    "title": "card row",
+    "children": ["flex-layout.col#one"]
+  },
+  "flex-layout.col#one": {
+    "title": "columna",
+    "children": ["image#cardimage1", "rich-text#1"],
+    "props": {
+      "blockClass": [
+        "col__one--imgtext"
+      ]
+    }
   },
 
   "rich-text#1": {
     "title": "text1",
     "props": {
-      "text": "Test1"
+      "text": "Builder platform is made by, buildership platform is made by..."
     }
   },
   "rich-text#2": {
