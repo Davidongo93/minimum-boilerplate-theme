@@ -1,4 +1,3 @@
-
 {
   "flex-layout.row#textos": {
     "title": "flex layout row texto 1",
@@ -14,7 +13,7 @@
     ],
     "props": {
       "width" :"80%",
-      "blockClass": ["textstyle"]
+      "blockClass": "col__one--text"
     }
   },
   "flex-layout.col#texto-dos": {
@@ -23,7 +22,8 @@
       "rich-text"
     ],
     "props": {
-      "width" :"20%"
+      "width" :"20%",
+      "blockClass": ["col__two--text"]
     }
   },
   "rich-text": { 
