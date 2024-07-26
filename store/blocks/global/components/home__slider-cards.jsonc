@@ -2,7 +2,7 @@
   "slider-layout#text-test": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 3,
         "tablet": 1,
         "phone": 1
       },
@@ -10,10 +10,10 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["image#cardimage1", "flex-layout.row#card"]
+    "children": ["flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card"]
   },
   "flex-layout.row#card": {
-    "title": "card row",
+    "title": "card",
     "children": ["flex-layout.col#one"]
   },
   "flex-layout.col#one": {
@@ -32,36 +32,10 @@
       "text": "Builder platform is made by, buildership platform is made by..."
     }
   },
-  "rich-text#2": {
-    "title": "text2",
-    "props": {
-      "text": "Test2"
-    }
-  },
-  "rich-text#3": {
-    "title": "text3",
-    "props": {
-      "text": "Test3"
-    }
-  },
   "image#cardimage1": {
     "props": {
       "src": "assets/img/imagecard.png"
       
     }
-  },
-  "image#cardimage2": {
-    "props": {
-      "src": "assets/img/imagecard.png"
-      
-    }
-  },
-  "image#cardimage3": {
-    "props": {
-      "src": "assets/img/imagecard.png"
-      
-    }
   }
-
-
 }

@@ -28,7 +28,7 @@
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 3,
         "tablet": 1,
         "phone": 1
       },
