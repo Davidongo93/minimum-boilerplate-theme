@@ -1,16 +1,19 @@
 {
-  "slider-layout#text-test": {
+  "slider-layout#card-carousel": {
+    "title": "home-carousel",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 1,
         "phone": 1
       },
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 24,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     },
-    "children": ["flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card"]
+    "children": ["flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card"]
   },
   "flex-layout.row#card": {
     "title": "card",
@@ -18,23 +21,36 @@
   },
   "flex-layout.col#one": {
     "title": "columna",
-    "children": ["image#cardimage1", "rich-text#1"],
+    "children": ["image#cardimage1","flex-layout.row#titleandaward"],
     "props": {
       "blockClass": [
         "col__one--imgtext"
       ]
     }
   },
+  "flex-layout.row#titleandaward": {
+    "title": "description and awardlogo",
+    "children": ["rich-text#1","image#awardlogo" ]
+  },
 
   "rich-text#1": {
     "title": "text1",
     "props": {
-      "text": "Builder platform is made by, buildership platform is made by..."
+      "text":  "#### Heading\n\nBuilder platform is made by, buildership platform is made by..."
     }
   },
   "image#cardimage1": {
     "props": {
-      "src": "assets/img/imagecard.png"
+      "src": "assets/img/imagecard.png",
+      "maxWidth": 324
+      
+    }
+  },
+  "image#awardlogo": {
+    "props": {
+      "src": "assets/img/colombiaawardlogo.png",
+      "maxWidth": 76,
+      "maxHeight": 79
       
     }
   }
