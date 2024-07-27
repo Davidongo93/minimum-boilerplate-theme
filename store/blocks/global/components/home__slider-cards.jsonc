@@ -30,7 +30,10 @@
   },
   "flex-layout.row#titleandaward": {
     "title": "description and awardlogo",
-    "children": ["rich-text#1","image#awardlogo" ]
+    "children": ["rich-text#1","image#awardlogo" ],
+    "props": {
+      "width": "75%"
+    }
   },
 
   "rich-text#1": {
@@ -41,9 +44,8 @@
   },
   "image#cardimage1": {
     "props": {
-      "src": "assets/img/imagecard.png",
-      "maxWidth": 324
-      
+      "blockClass":["cardimageSASASASA"],
+      "src": "assets/img/imagecard.png"
     }
   },
   "image#awardlogo": {
