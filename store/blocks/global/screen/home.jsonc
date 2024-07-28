@@ -1,7 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "slider-layout#card-carousel"
+      "modal-trigger#example",
+      "responsive-layout.desktop#desktop-home__section--1",
+      "responsive-layout.phone#phone-home__section--1",
+      "responsive-layout.tablet#tablet-home__section--1",
+      "responsive-layout.mobile#mobile-home__section--1"
     ]
   }
 }
