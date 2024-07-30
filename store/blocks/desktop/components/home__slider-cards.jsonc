@@ -11,31 +11,31 @@
       "centerModeSlidesGap": 24,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "SLIDER-MAIN"
     },
     "children": ["flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card"]
   },
   "flex-layout.row#card": {
     "title": "card",
-    "children": ["flex-layout.col#one"]
-  },
-  "flex-layout.col#one": {
-    "title": "columna",
-    "children": ["image#cardimage1","flex-layout.row#titleandaward"],
-    "props": {
+    "children": ["flex-layout.col#one"],
+       "props": {
       "blockClass": [
-        "col__one--imgtext"
+        "SLIDER-CARD-MAIN"
       ]
     }
   },
+  "flex-layout.col#one": {
+    "title": "columna",
+    "children": ["image#cardimage1","flex-layout.row#titleandaward","flex-layout.row#link-button"]
+  },
   "flex-layout.row#titleandaward": {
     "title": "description and awardlogo",
-    "children": ["rich-text#1","image#awardlogo" ],
-    "props": {
-      "width": "75%"
-    }
+    "children": ["rich-text#1","image#awardlogo"]
   },
-
+  "flex-layout.row#link-button": {
+    "title": "link-button",
+    "children": ["link#ver-precio"]
+  },
   "rich-text#1": {
     "title": "text1",
     "props": {
@@ -54,6 +54,23 @@
       "maxWidth": 76,
       "maxHeight": 79
       
+    }
+  },
+  "link#ver-precio": {
+    "props": {
+      "label": "Ver precio",
+      "url": "/",
+      "blockClass": "custom-button"
+    },
+    "children": ["icon#arrow-right"]
+  },
+  "icon#arrow-right": {
+    "props": {
+      "id": "nav-thin-caret--right",
+      "size": 16,
+      "viewBox": "0 0 24 24",
+      "activeClassName": "active",
+      "blockClass": "icon-arrow"
     }
   }
 }

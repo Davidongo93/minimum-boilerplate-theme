@@ -1,0 +1,21 @@
+.link--custom-button {
+    background-color: #1D2734;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .link--custom-button:hover {
+    background-color: #2a3645;
+  }
+
+
+.link-custom-button .icon-arrow {
+  margin-left: 8px;
+  color: aliceblue;
+}
