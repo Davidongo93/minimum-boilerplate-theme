@@ -2,8 +2,11 @@
     "responsive-layout.desktop#desktop-home__section--1":{
         "title": "home__section one desktop",
         "children": [
+           "flex-layout.row#herocontainer",
             "flex-layout.row#desktop-home__section--1",
-            "slider-layout#card-carousel"
+            "slider-layout#card-carousel",
+            "flex-layout.row#desktop-home__section--1"
+
         ]
     }
 }

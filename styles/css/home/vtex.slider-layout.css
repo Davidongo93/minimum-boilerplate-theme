@@ -1,4 +1,26 @@
 .sliderLayoutContainer--SLIDER-MAIN{
-    padding-left: 36px;
-    padding-right: 36px;
+    padding: 36px;
+    
 }
+.sliderArrows {
+
+}
+
+.caretIcon--SLIDER-MAIN {
+    width: 16px; 
+    height: 26px;
+    fill: currentColor;
+}
+
+.slider--SLIDER-MAIN{
+    width: 324px;
+}
+.paginationDot--isActive {
+    background: #1D2734; 
+  }
+  
+
+.paginationDot {
+    border: 1px solid #1D2734; /* Color del borde para el dash */
+    transform: rotate(90deg); /* Rota para parecer un dash */
+  }

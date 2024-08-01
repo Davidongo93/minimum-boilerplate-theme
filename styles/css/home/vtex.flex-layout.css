@@ -1,3 +1,21 @@
 .flexCol--SLIDER-CARD-MAIN{
-    border-radius: 12px;
+    margin: 0;
+}
+.flexRowContent--TEXT-AND-LOGO{
+    margin-top: 13.82px;
+    width: 324px;
+}
+.flexRowContent--PHONEIMAGE{
+    width: 324px; /* Ancho del contenedor */
+    height: 186.62px; /* Alto del contenedor */
+    overflow: hidden; /* Oculta la parte que no cabe en el contenedor */
+    border-radius: 13.82px 13.82px 0px 0px; /* Bordes redondeados */
+    position: relative;
+}
+.flexRowContent--HERO-CONTAINER{
+    background-color: blue;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100%;
+    align-self:center;
 }

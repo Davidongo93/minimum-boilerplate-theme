@@ -11,49 +11,73 @@
       "centerModeSlidesGap": 24,
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "arrowSize": 24,
       "blockClass": "SLIDER-MAIN"
     },
-    "children": ["flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card", "flex-layout.row#card"]
+    "children": [
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card"
+    ]
   },
   "flex-layout.row#card": {
     "title": "card",
     "children": ["flex-layout.col#one"],
-       "props": {
-      "blockClass": [
-        "SLIDER-CARD-MAIN"
-      ]
+    "props": {
+      "blockClass": ["SLIDER-CARD-MAIN"]
     }
   },
   "flex-layout.col#one": {
     "title": "columna",
-    "children": ["image#cardimage1","flex-layout.row#titleandaward","flex-layout.row#link-button"]
+    "children": [
+      "flex-layout.row#phoneimage",
+      "flex-layout.row#titleandaward",
+      "flex-layout.row#link-button"
+    ]
   },
+  "flex-layout.row#phoneimage": {
+    "title": "phoneimage",
+    "children": ["image#cardimage1"],
+    "props": {
+      "blockClass": "PHONEIMAGE"
+    }
+  },
+
   "flex-layout.row#titleandaward": {
     "title": "description and awardlogo",
-    "children": ["rich-text#1","image#awardlogo"]
+    "children": ["rich-text#1", "image#awardlogo"],
+    "props": {
+      "blockClass": "TEXT-AND-LOGO"
+    }
   },
   "flex-layout.row#link-button": {
     "title": "link-button",
     "children": ["link#ver-precio"]
   },
   "rich-text#1": {
-    "title": "text1",
+    "title": "textcard",
     "props": {
-      "text":  "#### Heading\n\nBuilder platform is made by, buildership platform is made by..."
+      "text": "#### Heading\n\nBuilder platform is made by, buildership platform is made by...",
+      "width": "80%"
     }
   },
   "image#cardimage1": {
     "props": {
-      "blockClass":["cardimageSASASASA"],
+      "blockClass": ["CARD-IMAGE"],
       "src": "assets/img/imagecard.png"
     }
   },
   "image#awardlogo": {
     "props": {
+      "blockClass": ["AWARD-IMAGE"],
       "src": "assets/img/colombiaawardlogo.png",
       "maxWidth": 76,
       "maxHeight": 79
-      
     }
   },
   "link#ver-precio": {
@@ -67,7 +91,7 @@
   "icon#arrow-right": {
     "props": {
       "id": "nav-thin-caret--right",
-      "size": 16,
+      "size": 24,
       "viewBox": "0 0 24 24",
       "activeClassName": "active",
       "blockClass": "icon-arrow"

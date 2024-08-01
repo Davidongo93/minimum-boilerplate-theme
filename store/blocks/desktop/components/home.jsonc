@@ -9,10 +9,11 @@
     "rich-text#section--1":{
         "title": "favorites text on desktop",
         "props": {
-            "text": "hello DESKTOP",
-            "font": "t-heading-2",
+            "text": "An amazing product",
+            "font": "t-action",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "LEFT",
+            "blockClass": "AMAZING-PRODUCT"
         }
     }
 }

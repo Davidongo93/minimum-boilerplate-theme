@@ -1,0 +1,42 @@
+{
+  "slider-layout#info-cards": {
+    "title": "infoCards",
+    "props": {
+      
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 24,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel",
+      "arrowSize": {
+        "desktop": 24,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true
+    },
+    "children": ["rich-text#test", "rich-text#2", "rich-text#3"]
+  },
+
+  "rich-text#test": {
+    "props": {
+      "text": "Test1"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "Test2"
+    }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "Test3"
+    }
+  }
+
+}

@@ -1,0 +1,24 @@
+{
+      "flex-layout.row#herocontainer": {
+      "children": ["link#hero-banner"],
+      "props": {
+        "blockClass": "HERO-CONTAINER",
+        "horizontalAlign":"center",
+        "colJustify":"center"
+      }
+    },
+    "link#hero-banner": {
+        "children": ["image#smartwatch"],
+      "props": {
+        "blockClass": "HERO-DESKTOP-BANNER",
+        "href": "/"
+       }
+    },
+    "image#smartwatch": {
+      "props": {
+        "src": "assets/img/HeroDesktop.png",
+        "maxWidth": "auto"
+        
+      }
+    }
+}

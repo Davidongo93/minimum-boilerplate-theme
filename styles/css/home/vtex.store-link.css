@@ -5,9 +5,11 @@
     border-radius: 40px;
     text-align: center;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 4px;
+    justify-content: center;
+    width:min-content;
   }
   
   .link--custom-button:hover {
@@ -17,5 +19,4 @@
 
 .link-custom-button .icon-arrow {
   margin-left: 8px;
-  color: aliceblue;
 }
