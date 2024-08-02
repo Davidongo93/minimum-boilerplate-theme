@@ -3,8 +3,8 @@
       "children": ["link#hero-banner"],
       "props": {
         "blockClass": "HERO-CONTAINER",
-        "horizontalAlign":"center",
-        "colJustify":"center"
+       "horizontalAlign": "center",
+       "colJustify": "center"
       }
     },
     "link#hero-banner": {
@@ -16,9 +16,7 @@
     },
     "image#smartwatch": {
       "props": {
-        "src": "assets/img/HeroDesktop.png",
-        "maxWidth": "auto"
-        
+        "src": "assets/img/HeroDesktop.png"
       }
     }
 }

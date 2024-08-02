@@ -21,8 +21,9 @@
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": "FLEX-HEADER-DESKTOP"
     },
     "children": [
       "flex-layout.col#drawer",

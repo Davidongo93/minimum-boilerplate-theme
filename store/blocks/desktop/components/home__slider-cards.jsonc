@@ -10,11 +10,17 @@
       "centerMode": "to-the-left",
       "centerModeSlidesGap": 24,
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "arrowSize": 24,
-      "blockClass": "SLIDER-MAIN"
+      "showNavigationArrows":"desktopOnly"
     },
     "children": [
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
+      "flex-layout.row#card",
       "flex-layout.row#card",
       "flex-layout.row#card",
       "flex-layout.row#card",
@@ -50,20 +56,39 @@
 
   "flex-layout.row#titleandaward": {
     "title": "description and awardlogo",
-    "children": ["rich-text#1", "image#awardlogo"],
+    "children": ["flex-layout.col#slider-text", "image#awardlogo"],
     "props": {
       "blockClass": "TEXT-AND-LOGO"
     }
   },
   "flex-layout.row#link-button": {
     "title": "link-button",
-    "children": ["link#ver-precio"]
-  },
-  "rich-text#1": {
-    "title": "textcard",
+    "children": ["link#ver-precio"],
     "props": {
-      "text": "#### Heading\n\nBuilder platform is made by, buildership platform is made by...",
-      "width": "80%"
+      "blockClass": "VER-PRECIO-BUTTON"
+    }
+  },
+  "flex-layout.col#slider-text": {
+    "children": ["rich-text#title_service","rich-text#description"],
+    "props": {
+      "width":"80%"
+    }
+  },
+  "rich-text#title_service": {
+    "title": "Title card service ",
+    "props": {
+      "text": "Heading",
+      "font": "t-heading-5",
+      "blockClass": "title__service__card"
+    }
+  },
+  "rich-text#description": {
+    "title": "Description service",
+    "props": {
+      "text": "Builder platform is made by, buildership platform is made by...",
+      "blockClass": [
+        "description__info__card"
+      ]
     }
   },
   "image#cardimage1": {

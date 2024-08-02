@@ -15,12 +15,39 @@
 .slider--SLIDER-MAIN{
     width: 324px;
 }
-.paginationDot--isActive {
-    background: #1D2734; 
+.paginationDot {  
+    width: 16.96px !important;  
+    height: 16.96px !important;  
+    background-color: transparent;
+    position: relative;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    margin: 0 2px;
   }
+  .paginationDot--isActive::before {  
+    content: "";  
+    position: absolute;  
   
-
-.paginationDot {
-    border: 1px solid #1D2734; /* Color del borde para el dash */
-    transform: rotate(90deg); /* Rota para parecer un dash */
+    width: 16.96px;  
+    height: 16.96px;      
+    background-color: #1d2734;  
+    border-radius: 50%;
+  }
+  .paginationDot::after {  
+    /* content allow us to use  in abosulte */
+    content: "";  
+    position: absolute;  
+    top: 50%;  
+    left: 0;  
+    width: 44px;  
+    height: 1.41px;  
+    background: repeating-linear-gradient(    
+      to right,    
+      #1d2734,    
+      #1d2734 12px,    
+      transparent 12px,    
+      transparent 24px  
+    );  
+    transform: translateX(-25%);
   }

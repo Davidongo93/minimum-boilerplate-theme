@@ -8,7 +8,5 @@
   
 }
 .imageElement--HERO-DESKTOP-BANNER{
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;
-    align-self: center;
+align-items: center;
 }

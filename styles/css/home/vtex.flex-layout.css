@@ -1,3 +1,6 @@
+.flexRow--FLEX-HEADER-DESKTOP{
+    height: 56;
+}
 .flexCol--SLIDER-CARD-MAIN{
     margin: 0;
 }
@@ -13,9 +16,13 @@
     position: relative;
 }
 .flexRowContent--HERO-CONTAINER{
+    justify-content: center; /* Centra horizontalmente */
     background-color: blue;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100%;
-    align-self:center;
+}
+.flexRowContent--VER-PRECIO-BUTTON{
+width: 300px; /* Especifica el ancho del elemento */
+height: 100px; /* Especifica la altura del elemento */
+display: flex;
+justify-content: center; /* Centra horizontalmente el contenido del elemento */
+align-items: center;
 }

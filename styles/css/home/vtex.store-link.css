@@ -1,15 +1,17 @@
 .link--custom-button {
-    background-color: #1D2734;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    justify-content: center;
-    width:min-content;
+  background-color: #1D2734;
+  color: white;
+  padding: 8px;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  border: 0.86px solid #1D2734;
+  width: 134px !important;
+  height: 43px !important;
   }
   
   .link--custom-button:hover {
@@ -18,5 +20,16 @@
 
 
 .link-custom-button .icon-arrow {
+
   margin-left: 8px;
+}
+
+.childrenContainer--HERO-DESKTOP-BANNER {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.childrenContainer--custom-button{
+  transform: translateY(20%);
 }
