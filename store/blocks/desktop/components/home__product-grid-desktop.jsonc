@@ -1,47 +1,78 @@
 {
-    "flex-layout.row#productgriddsk": {
-        "title": "flr product grid desktop",
-      "children": ["flex-layout.col#productgriddsk"],
-      "props": {
-        "blockClass": "FLR-PRODUCT-GRID-DSK"
-      }
+  "flex-layout.row#productgriddsk": {
+    "title": "flr product grid desktop",
+    "children": ["flex-layout.col#productgriddsk"],
+    "props": {
+      "blockClass": "FLR-PRODUCT-GRID-DSK"
+    }
+  },
+  "flex-layout.col#productgriddsk": {
+    "title": "flc product grid desktop",
+    "children": ["list-context.product-list#productgriddsk"],
+    "props": {
+      "blockClass": "FLC-PRODUC-GRID-DSK"
+    }
+  },
+  "list-context.product-list#productgriddsk": {
+    "title": "list context product",
+    "blocks": ["product-summary.shelf#productgrid"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      
+    }
+  },
+  "slider-layout#shelf": {
+    "title": "slider layout shelf",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 1,
+              "phone": 1
+            },
+            "fullWidth": true,
+            "centerMode": "center"
+          }
+  },
+  "product-summary.shelf#productgrid": {
+    "title": "Tarjeta de producto",
+    "children": [
+      "flex-layout.row#rowfavsoff",
+      "product-summary-image",
+      "product-summary-description",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "flex-layout.row#rowfavsoff": {
+    "title": "favorites and off",
+    "children": ["rich-text#discountbox","link#favorites"],
+    "props": {
+      "blockClass": "FAVORITES-AND-OFF"
+    }
+  },
+  "link#favorites": {
+    "props": {
+      "label": "",
+      "url": "/",
+      "blockClass": "favorites-button"
     },
-    "flex-layout.col#productgriddsk": {
-        "title": "flc product grid desktop",
-      "children": [
-        "rich-text#productgriddsk-title",
-        "list-context.product-list#productgriddsk"
-      ],
-      "props": {
-        "blockClass": "FLC-PRODUC-GRID-DSK"
-      }
-    },
-    "rich-text#productgriddsk-title": {
-        "title": "rich text product grid dsk",
-      "props": {
-       "text": "##",
-       "textAlignment": "CENTER",
-       "textPosition": "CENTER"
-      }
-    },
-     "list-context.product-list#productgriddsk": {
-        "title": "list context product",
-       "blocks": ["product-summary.shelf#productgrid"],
-       "children": ["slider-layout#shelf"],
-       "props": {
-    
-       }
-    },
-    "slider-layout#shelf": {
-        "title": "slider layout shelf"
-    },
-    "product-summary.shelf#productgrid": {
-        "title": "Tarjeta de producto",
-        "children": [
-          "product-summary-image",
-          "product-summary-description",
-          "product-summary-price",
-          "product-summary-buy-button"
-        ]
-      }
+    "children": ["icon#favorites"]
+  },
+  "icon#favorites": {
+    "props": {
+      "id": "mpa-heart",
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "activeClassName": "active",
+      "blockClass": "icon-favorites"
+    }
+  },
+  "rich-text#discountbox": {
+    "title": "discount button",
+    "props": {
+      "text": "20% OFF",
+      "blockClass":["discount-box"]
+    }
+  }
 }
+

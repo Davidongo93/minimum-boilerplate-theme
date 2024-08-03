@@ -26,3 +26,15 @@ display: flex;
 justify-content: center; /* Centra horizontalmente el contenido del elemento */
 align-items: center;
 }
+.flexRowContent--FAVORITES-AND-OFF{
+    display: flex;
+    align-items: center;
+}
+.flexRow--FLR-PRODUCT-GRID-DSK{
+    max-width: 1092px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
