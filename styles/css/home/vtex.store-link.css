@@ -50,3 +50,14 @@
     transform: translateY(20%);
     
   }
+  .link--icon-link {
+    color:#1D2734;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 134px !important;
+    height: 43px !important;
+    }

@@ -14,7 +14,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#desktop","flex-layout.row#desktopicons"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -33,6 +33,69 @@
       "minicart.v2",
       "login"
     ]
+  },
+  "flex-layout.row#desktopicons": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": "FLEX-HEADER-DESKTOP-ICONS"
+    },
+    "children": [
+      "flex-layout.col#icon1",
+      "flex-layout.col#icon2"
+      // "flex-layout.col#icon3",
+      // "flex-layout.col#icon4",
+      // "flex-layout.col#icon5",
+      // "flex-layout.col#icon6",
+      // "flex-layout.col#icon7",
+      // "flex-layout.col#icon8",
+      // "flex-layout.col#icon9",
+      // "flex-layout.col#icon10",
+      // "flex-layout.col#icon11",
+      // "flex-layout.col#icon12",
+      // "flex-layout.col#icon13"
+    ]
+  },
+  "flex-layout.col#icon1": {
+    "children": ["link#icon1"]
+  },
+  "link#icon1": {
+    "props": {
+      "href": "/link1",
+      "label": "food",
+      "blockClass": "icon-link"
+    },
+    "children": ["icon#icon1"]
+  },
+  "icon#icon1": {
+    "props": {
+      "id": "hdr-food",
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "blockClass": "custom-icon"
+    }
+  },
+  "flex-layout.col#icon2": {
+    "children": ["link#icon2"]
+  },
+  "link#icon2": {
+    "props": {
+      "href": "/link2",
+      "label": "fitness",
+      "blockClass": "icon-link"
+    },
+    "children": ["icon#icon2"]
+  },
+  "icon#icon2": {
+    "props": {
+      "id": "hdr-fitness",
+      "size": 20,
+      "viewBox": "0 0 20 20",
+      "blockClass": "custom-icon"
+    }
   },
   "search-bar": {
     "props": {
