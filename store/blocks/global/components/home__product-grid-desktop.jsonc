@@ -37,12 +37,15 @@
     "title": "Tarjeta de producto",
     "children": [
       "flex-layout.row#rowfavsoff",
-      "product-summary-image",
+      "product-summary-image#imageshelf",
       "product-summary-description",
       "product-summary-price",
       "product-highlight-text",
       "product-summary-buy-button"
-    ]
+    ],
+    "props": {
+      "blockClass":["productgrid"]
+    }
   },
   "flex-layout.row#rowfavsoff": {
     "title": "favorites and off",
@@ -80,6 +83,15 @@
       "message": "{highlightName}",
       "link": "/collection/{highlightId}"
     }
+},
+
+"product-summary-image#imageshelf":{
+  "title": "Image shelf",
+  "props": {
+    "width":"178px",
+    "height":"140px"
+  }
+  }
 }
-}
+
 

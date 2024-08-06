@@ -1,0 +1,4 @@
+.element--productgrid{
+    display: flex;
+    justify-content: space-around;
+}
