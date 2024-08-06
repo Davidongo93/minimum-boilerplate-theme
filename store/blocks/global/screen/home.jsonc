@@ -3,9 +3,9 @@
     "blocks": [
       //"modal-trigger#example",
       "responsive-layout.desktop#desktop-home__section--1",
-      "responsive-layout.phone#phone-home__section--1",
-      "responsive-layout.tablet#tablet-home__section--1",
-      "responsive-layout.mobile#mobile-home__section--1",
+      // "responsive-layout.phone#phone-home__section--1",
+      // "responsive-layout.tablet#tablet-home__section--1",
+      // "responsive-layout.mobile#mobile-home__section--1",
       "flex-layout.row#desktop-home__section--1",
       "slider-layout#card-carousel",
       "flex-layout.row#desktop-home__section--1",
