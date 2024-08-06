@@ -1,15 +1,6 @@
 .imageElement--CARD-IMAGE{
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     object-position: top;
     position: absolute;
-    border-radius: 13.82px 13.82px 0px 0px;
-  
+    border-radius: 13.82px 13.82px 0px 0px;  
 }
-.imageElement--HERO-DESKTOP-BANNER{
-align-items: center;
-}
-.imageElement--HERO-DESKTOP-BANNER{
-    align-items: center;
-    }

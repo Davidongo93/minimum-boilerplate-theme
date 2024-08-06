@@ -2,8 +2,14 @@
     padding: 36px;
     
 }
-.sliderArrows {
-
+.sliderLayoutContainer--SLIDER-SHELF{
+  padding: 36px;
+  
+}
+.slider--SLIDER-SHELF{
+  padding: 36px;
+  width: 324px;
+  
 }
 
 .caretIcon--SLIDER-MAIN {

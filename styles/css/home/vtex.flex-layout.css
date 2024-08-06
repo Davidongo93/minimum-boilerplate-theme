@@ -15,10 +15,7 @@
     border-radius: 13.82px 13.82px 0px 0px; /* Bordes redondeados */
     position: relative;
 }
-.flexRowContent--HERO-CONTAINER{
-    justify-content: center; /* Centra horizontalmente */
-    background-color: blue;
-}
+
 .flexRowContent--VER-PRECIO-BUTTON{
 width: 300px; /* Especifica el ancho del elemento */
 height: 100px; /* Especifica la altura del elemento */
@@ -31,9 +28,8 @@ align-items: center;
     align-items: center;
 }
 .flexRow--FLR-PRODUCT-GRID-DSK{
-    max-width: 1092px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    width: 1092;
 }
