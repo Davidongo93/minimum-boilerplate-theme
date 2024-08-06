@@ -1,3 +1,15 @@
 .wrapper--AMAZING-PRODUCT{
     margin-left: 72px;
 }
+.wrapper--discount-box{
+    display: flex;
+    border: 1px #1D2734;
+    color: white;
+    background-color: #1D2734;
+    border-radius: 4px;
+    gap: 10px;
+    padding: 6px 12px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+}

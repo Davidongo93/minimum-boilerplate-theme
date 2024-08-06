@@ -33,3 +33,20 @@
 .childrenContainer--custom-button{
   transform: translateY(20%);
 }
+
+.link--favorites-button {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #1D2734;
+  color: #1D2734;
+  width: 44px !important;
+  height: 32px !important;
+  }
+  .childrenContainer--favorites-button{
+    display: flex;
+    transform: translateY(20%);
+    
+  }
