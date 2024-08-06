@@ -25,12 +25,12 @@
     "title": "slider layout shelf",
         "props": {
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 1,
               "phone": 1
             },
-            "fullWidth": true,
-            "centerMode": "center"
+            "centerMode": "to-the-left",
+            "blockClass":["SLIDER-SHELF"]
           }
   },
   "product-summary.shelf#productgrid": {
@@ -40,6 +40,7 @@
       "product-summary-image",
       "product-summary-description",
       "product-summary-price",
+      "product-highlight-text",
       "product-summary-buy-button"
     ]
   },
@@ -73,6 +74,12 @@
       "text": "20% OFF",
       "blockClass":["discount-box"]
     }
-  }
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "link": "/collection/{highlightId}"
+    }
+}
 }
 

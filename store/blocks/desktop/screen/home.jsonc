@@ -2,15 +2,7 @@
     "responsive-layout.desktop#desktop-home__section--1":{
         "title": "home__section one desktop",
         "children": [
-           "link#hero-banner",
-            "flex-layout.row#desktop-home__section--1",
-            "slider-layout#card-carousel",
-            "flex-layout.row#desktop-home__section--1",
-            "flex-layout.row#productgriddsk",
-            "flex-layout.row#desktop-home__section--1",
-            "slider-layout#card-carousel",
-            "flex-layout.row#desktop-home__section--1",
-            "flex-layout.row#productgriddsk"
+           "link#hero-banner"
         ]
     }
 }
