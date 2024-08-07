@@ -2,8 +2,26 @@
     height: 56;
 }
 .flexCol--SLIDER-CARD-MAIN{
-    margin: 0;
+
 }
+.flexRowContent--FLEX-HEADER-DESKTOP{
+    margin-top: 64px;
+}
+.flexRow--textbuttons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-left: 30px;
+}
+.flexRowContent--FLEX-HEADER-DESKTOP-ICONS{
+    height: 64px;
+    display: flex;
+   align-items: center;
+   gap: 18px;
+   padding-right: 10%;
+}
+
 .flexRowContent--TEXT-AND-LOGO{
     margin-top: 13.82px;
     width: 324px;

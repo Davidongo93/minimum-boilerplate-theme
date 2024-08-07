@@ -1,12 +1,4 @@
 {
-      "flex-layout.row#herocontainer": {
-      "children": ["link#hero-banner"],
-      "props": {
-        "blockClass": "HERO-CONTAINER",
-       "horizontalAlign": "center",
-       "colJustify": "center"
-      }
-    },
     "link#hero-banner": {
         "children": ["image#smartwatch"],
       "props": {

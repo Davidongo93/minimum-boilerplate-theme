@@ -1,0 +1,257 @@
+{
+    "flex-layout.row#desktopicons": {
+      "props": {
+        "horizontalAlign": "center",
+        "verticalAlign": "center",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": false,
+        "fullWidth": true,
+        "blockClass": "FLEX-HEADER-DESKTOP-ICONS",
+        "marginTop":8
+      },
+      "children": [
+        "flex-layout.col#iconfood",
+        "flex-layout.col#iconfitness",
+        "flex-layout.col#iconarctic",
+        "flex-layout.col#iconpoolday",
+        "flex-layout.col#iconhotels",
+        "flex-layout.col#iconhouses",
+        "flex-layout.col#iconhotels",
+        "flex-layout.col#iconnatural",
+        "flex-layout.col#iconcloset",
+        "flex-layout.col#iconbeach",
+        "flex-layout.col#iconmountain",
+        "flex-layout.col#icondelivery",
+        "flex-layout.col#iconbeer"
+      ]
+    },
+    "flex-layout.col#iconfood": {
+      "children": ["link#iconfood"]
+    },
+    "link#iconfood": {
+      "props": {
+        "href": "/",
+        "label": "Food",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconfood"]
+    },
+    "icon#iconfood": {
+      "props": {
+        "id": "hdr-food",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconfitness": {
+      "children": ["link#iconfitness"]
+    },
+    "link#iconfitness": {
+      "props": {
+        "href": "/link2",
+        "label": "Fitness",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconfitness"]
+    },
+    "icon#iconfitness": {
+      "props": {
+        "id": "hdr-fitness",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconarctic": {
+      "children": ["link#iconarctic"]
+    },
+    "link#iconarctic": {
+      "props": {
+        "href": "/link3",
+        "label": "En el ártico",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconarctic"]
+    },
+    "icon#iconarctic": {
+      "props": {
+        "id": "hdr-arctic",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconpoolday": {
+      "children": ["link#iconpoolday"]
+    },
+    "link#iconpoolday": {
+      "props": {
+        "href": "/link4",
+        "label": "Pool Day",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconpoolday"]
+    },
+    "icon#iconpoolday": {
+      "props": {
+        "id": "hdr-poolday",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconhotels": {
+      "children": ["link#iconhotels"]
+    },
+    "link#iconhotels": {
+      "props": {
+        "href": "/link5",
+        "label": "Hoteles",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconhotels"]
+    },
+    "icon#iconhotels": {
+      "props": {
+        "id": "hdr-hotels",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconhouses": {
+      "children": ["link#iconhouses"]
+    },
+    "link#iconhouses": {
+      "props": {
+        "href": "/link6",
+        "label": "Casas",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconhouses"]
+    },
+    "icon#iconhouses": {
+      "props": {
+        "id": "hdr-houses",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconnatural": {
+      "children": ["link#iconnatural"]
+    },
+    "link#iconnatural": {
+      "props": {
+        "href": "/link7",
+        "label": "Naturales",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconnatural"]
+    },
+    "icon#iconnatural": {
+      "props": {
+        "id": "hdr-natural",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconcloset": {
+      "children": ["link#iconcloset"]
+    },
+    "link#iconcloset": {
+      "props": {
+        "href": "/link8",
+        "label": "Closet",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconcloset"]
+    },
+    "icon#iconcloset": {
+      "props": {
+        "id": "hdr-closet",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconbeach": {
+      "children": ["link#iconbeach"]
+    },
+    "link#iconbeach": {
+      "props": {
+        "href": "/link9",
+        "label": "Playas",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconbeach"]
+    },
+    "icon#iconbeach": {
+      "props": {
+        "id": "hdr-beach",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconmountain": {
+      "children": ["link#iconmountain"]
+    },
+    "link#iconmountain": {
+      "props": {
+        "href": "/link10",
+        "label": "Alpinismo",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconmountain"]
+    },
+    "icon#iconmountain": {
+      "props": {
+        "id": "hdr-mountain",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#icondelivery": {
+      "children": ["link#icondelivery"]
+    },
+    "link#icondelivery": {
+      "props": {
+        "href": "/link11",
+        "label": "Delivery",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#icondelivery"]
+    },
+    "icon#icondelivery": {
+      "props": {
+        "id": "hdr-delivery",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    },
+    "flex-layout.col#iconbeer": {
+      "children": ["link#iconbeer"]
+    },
+    "link#iconbeer": {
+      "props": {
+        "href": "/link12",
+        "label": "Cervezas",
+        "blockClass": "hdr-icon-link"
+      },
+      "children": ["icon#iconbeer"]
+    },
+    "icon#iconbeer": {
+      "props": {
+        "id": "hdr-beer",
+        "size": 20,
+        "viewBox": "0 0 20 20",
+        "blockClass": "custom-icon"
+      }
+    }
+  }
+  
