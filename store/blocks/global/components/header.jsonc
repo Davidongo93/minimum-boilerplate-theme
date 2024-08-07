@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop", "flex-layout.row#desktopicons"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -23,20 +21,22 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": false,
       "fullWidth": true,
-      "blockClass": "FLEX-HEADER-DESKTOP"
+      "blockClass": "FLEX-HEADER-DESKTOP",
+      "marginTop": 7
     },
     "children": [
       "flex-layout.col#drawer",
       "flex-layout.col#logo-desktop",
       "search-bar",
-      "flex-layout.col#spacer",
+     // "flex-layout.col#spacer",
+      "flex-layout.row#buttons",
       "minicart.v2",
       "login"
     ]
   },
   "search-bar": {
     "props": {
-      "blockClass":["searchbar-header"]
+      "blockClass": ["searchbar-header"]
     }
   },
   "flex-layout.col#drawer": {
@@ -89,5 +89,52 @@
   },
   "drawer": {
     "children": []
+  },
+  "flex-layout.row#buttons": {
+    "children": [
+      "link#trend",
+      "link#monthcollection",
+      "link#januaryoff",
+      "link#cybermonday",
+      "link#neversay"
+    ],
+    "props": {
+      "blockClass": "textbuttons"
+    }
+  },
+  "link#trend": {
+    "props": {
+      "label": "Tendencias de it globers",
+      "href": "/",
+      "blockClass":["hdr-link-trend"]
+    }
+  },
+  "link#monthcollection": {
+    "props": {
+      "label": "Coleccion del mes",
+      "href": "/",
+      "blockClass":["hdr-links"]
+    }
+  },
+  "link#januaryoff": {
+    "props": {
+      "label": "Ofertas enero",
+      "href": "/",
+      "blockClass":["hdr-links"]
+    }
+  },
+  "link#cybermonday": {
+    "props": {
+      "label": "Cyber Monday",
+      "href": "/",
+      "blockClass":["hdr-links"]
+    }
+  },
+  "link#neversay": {
+    "props": {
+      "label": "Never say never",
+      "href": "/",
+      "blockClass":["hdr-links"]
+    }
   }
 }
