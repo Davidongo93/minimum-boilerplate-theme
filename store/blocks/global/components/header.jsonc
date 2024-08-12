@@ -90,6 +90,11 @@
   "drawer": {
     "children": []
   },
+  "login": {
+    "props": {
+      "blockClass":["login-desktop"]
+    }
+  },
   "flex-layout.row#buttons": {
     "children": [
       "link#trend",
