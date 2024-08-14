@@ -12,12 +12,16 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop__spacer--header","flex-layout.row#desktop", "flex-layout.row#desktopicons"]
+    "children": [
+      "flex-layout.row#desktop__spacer--header",
+      "flex-layout.row#desktop",
+      "flex-layout.row#desktopicons"
+    ]
   },
   "flex-layout.row#desktop__spacer--header": {
     "title": "desktop__spacer--header",
     "props": {
-          "width": "100%",
+      "width": "100%",
       "blockClass": "desktop__spacer--header"
     }
   },
@@ -33,16 +37,23 @@
     "children": [
       "flex-layout.col#drawer",
       "flex-layout.col#logo-desktop",
-      "search-bar",
-     // "flex-layout.col#spacer",
+      "flex-layout.col#searchbar-desktop",
+      // "flex-layout.col#spacer",
       "flex-layout.row#buttons",
       "minicart.v2",
-    "login#__login--desktop"
+      "login#__login--desktop"
     ]
   },
-  "search-bar": {
+  "flex-layout.col#searchbar-desktop": {
+    "children": ["search-bar#desktop"],
     "props": {
-      "blockClass": ["searchbar-header"]
+            "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    }
+  },
+  "search-bar#desktop": {
+    "props": {
+      "blockClass": ["searchbar-desktop"]
     }
   },
   "flex-layout.col#drawer": {
@@ -62,11 +73,11 @@
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass":["logo-desktop"]
+      "blockClass": ["logo-desktop"]
     },
-    "children": ["logo"]
+    "children": ["logo#itg-logo-link"]
   },
-  "logo": {
+  "logo#itg-logo-link": {
     "props": {
       "title": "LogoITG",
       "href": "/",
@@ -83,7 +94,7 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
+      "logo#itg-logo-link",
       "flex-layout.col#spacer",
       "login",
       "minicart.v2"
@@ -100,7 +111,7 @@
   },
   "login#__login--desktop": {
     "props": {
-      "labelClasses":["9999999999"]
+      "labelClasses": ["9999999999"]
     }
   },
   "flex-layout.row#buttons": {
@@ -119,35 +130,35 @@
     "props": {
       "label": "Tendencias de it globers",
       "href": "/",
-      "blockClass":["hdr-link-trend"]
+      "blockClass": ["hdr-links"]
     }
   },
   "link#monthcollection": {
     "props": {
       "label": "Coleccion del mes",
       "href": "/",
-      "blockClass":["hdr-links"]
+      "blockClass": ["hdr-links"]
     }
   },
   "link#januaryoff": {
     "props": {
       "label": "Ofertas enero",
       "href": "/",
-      "blockClass":["hdr-links"]
+      "blockClass": ["hdr-links"]
     }
   },
   "link#cybermonday": {
     "props": {
       "label": "Cyber Monday",
       "href": "/",
-      "blockClass":["hdr-links"]
+      "blockClass": ["hdr-links"]
     }
   },
   "link#neversay": {
     "props": {
       "label": "Never say never",
       "href": "/",
-      "blockClass":["hdr-links"]
+      "blockClass": ["hdr-links"]
     }
   }
 }

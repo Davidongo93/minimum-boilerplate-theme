@@ -19,14 +19,12 @@
 .flexRow--textbuttons {
     display     : flex;
     align-items : center;
-    width       : 100%;
-    gap         : 5px;
-    padding-left: 30px;
+    text-wrap: nowrap;
 }
 
 .flexRowContent--textbuttons {
-    display    : flex;
-    align-items: flex-start
+    gap         : 30px;
+    padding-left: 10px;
 }
 
 .flexRowContent--FLEX-HEADER-DESKTOP-ICONS {

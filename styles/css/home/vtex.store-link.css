@@ -66,13 +66,5 @@
       font-weight: 400;
       font-size: 12px;
       text-decoration: none;
-      text-wrap: nowrap;
       align-items: center;
-    }
-    .link--hdr-link-trend{
-      font-weight: 400;
-      font-size: 12px;
-      text-decoration: none;
-      white-space: nowrap;
-     padding-right: 180px;
     }
