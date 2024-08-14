@@ -1,53 +1,81 @@
-.flexRow--FLEX-HEADER-DESKTOP{
-    height: 56;
+.flexRow--desktop__spacer--header{
+    height: 56px;
 }
-.flexCol--SLIDER-CARD-MAIN{
-
+.flexRow--FLEX-HEADER-DESKTOP {
 }
-.flexRowContent--FLEX-HEADER-DESKTOP{
-    margin-top: 64px;
+.flexRowContent--FLEX-HEADER-DESKTOP {
+    height: 56px;
+    padding: 8px 48px 8px 48px;
 }
-.flexRow--textbuttons{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    gap: 10px;
-    padding-left: 30px;
-}
-.flexRowContent--FLEX-HEADER-DESKTOP-ICONS{
-    height: 64px;
-    display: flex;
-   align-items: center;
-   gap: 18px;
-   padding-right: 10%;
-}
-
-.flexRowContent--TEXT-AND-LOGO{
-    margin-top: 13.82px;
-    width: 324px;
-}
-.flexRowContent--PHONEIMAGE{
-    width: 324px; /* Ancho del contenedor */
-    height: 186.62px; /* Alto del contenedor */
-    overflow: hidden; /* Oculta la parte que no cabe en el contenedor */
-    border-radius: 13.82px 13.82px 0px 0px; /* Bordes redondeados */
-    position: relative;
-}
-
-.flexRowContent--VER-PRECIO-BUTTON{
-width: 300px; /* Especifica el ancho del elemento */
-height: 100px; /* Especifica la altura del elemento */
-display: flex;
-justify-content: center; /* Centra horizontalmente el contenido del elemento */
-align-items: center;
-}
-.flexRowContent--FAVORITES-AND-OFF{
-    display: flex;
-    align-items: center;
-}
-.flexRow--FLR-PRODUCT-GRID-DSK{
+.flexCol--logo-desktop{
     display: flex;
     justify-content: center;
+}
+
+.flexCol--SLIDER-CARD-MAIN {}
+
+
+
+.flexRow--textbuttons {
+    display     : flex;
+    align-items : center;
+    width       : 100%;
+    gap         : 5px;
+    padding-left: 30px;
+}
+
+.flexRowContent--textbuttons {
+    display    : flex;
+    align-items: flex-start
+}
+
+.flexRowContent--FLEX-HEADER-DESKTOP-ICONS {
+    gap: 30px;
+}
+
+.flexRow--FLEX-HEADER-DESKTOP-ICONS {
+    margin-right : 10%;
+display: flex;
+align-items: flex-end;
+height: 56px;
+}
+
+.flexRowContent--TEXT-AND-LOGO {
+    margin-top: 13.82px;
+    width     : 324px;
+}
+
+.flexRowContent--PHONEIMAGE {
+    width        : 324px;
+    /* Ancho del contenedor */
+    height       : 186.62px;
+    /* Alto del contenedor */
+    overflow     : hidden;
+    /* Oculta la parte que no cabe en el contenedor */
+    border-radius: 13.82px 13.82px 0px 0px;
+    /* Bordes redondeados */
+    position     : relative;
+}
+
+.flexRowContent--VER-PRECIO-BUTTON {
+    width          : 300px;
+    /* Especifica el ancho del elemento */
+    height         : 100px;
+    /* Especifica la altura del elemento */
+    display        : flex;
+    justify-content: center;
+    /* Centra horizontalmente el contenido del elemento */
+    align-items    : center;
+}
+
+.flexRowContent--FAVORITES-AND-OFF {
+    display    : flex;
     align-items: center;
-    width: 1092;
+}
+
+.flexRow--FLR-PRODUCT-GRID-DSK {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 1092;
 }

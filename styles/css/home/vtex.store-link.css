@@ -28,7 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7px;
 }
 
 .childrenContainer--custom-button{
@@ -68,6 +67,7 @@
       font-size: 12px;
       text-decoration: none;
       text-wrap: nowrap;
+      align-items: center;
     }
     .link--hdr-link-trend{
       font-weight: 400;
