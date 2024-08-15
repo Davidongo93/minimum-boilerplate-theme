@@ -53,7 +53,10 @@
   },
   "search-bar#desktop": {
     "props": {
-      "blockClass": ["searchbar-desktop"]
+      "blockClass": ["searchbar-desktop"],
+      "placeholder": "Search Products...",
+      "maxWidth": "280px",
+      "border":"40px"
     }
   },
   "flex-layout.col#drawer": {

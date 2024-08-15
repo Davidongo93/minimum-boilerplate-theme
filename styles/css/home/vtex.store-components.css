@@ -7,3 +7,18 @@
 .logoContainer{
     padding: 0px 10px 0px 0px;
 }
+.searchBarInnerContainer--searchbar-desktop {
+    border-radius: 40px;
+    color:#1D2734;
+    font-weight: 300;
+    font-size: 12px;
+}
+.searchBarInnerContainer{
+    border-radius: 40px;
+
+}
+.searchBarContainer {
+    width: 280px;
+    }
+.searchBarIcon--searchbar-desktop{
+}
