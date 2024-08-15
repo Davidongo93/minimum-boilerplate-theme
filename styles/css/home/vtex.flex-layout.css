@@ -1,9 +1,12 @@
 .flexRow--desktop__spacer--header{
+    background-color: #FFFFFF;
     height: 56px;
 }
 .flexRow--FLEX-HEADER-DESKTOP {
+    background-color: #FFFFFF;
 }
 .flexRowContent--FLEX-HEADER-DESKTOP {
+    
     height: 56px;
     padding: 8px 48px 8px 48px;
 }
@@ -20,6 +23,7 @@
     display     : flex;
     align-items : center;
     text-wrap: nowrap;
+    
 }
 
 .flexRowContent--textbuttons {
@@ -28,7 +32,6 @@
 }
 
 .flexRowContent--FLEX-HEADER-DESKTOP-ICONS {
-    gap: 30px;
 }
 
 .flexRow--FLEX-HEADER-DESKTOP-ICONS {
@@ -36,6 +39,8 @@
 display: flex;
 align-items: flex-end;
 height: 56px;
+background-color: #FFFFFF;
+width: 100%;
 }
 
 .flexRowContent--TEXT-AND-LOGO {
@@ -76,4 +81,16 @@ height: 56px;
     justify-content: center;
     align-items    : center;
     width          : 1092;
+}
+
+.flexCol--flex-layout__icon--header{
+    padding:4px;
+    height: 47px;
+    width: 70px;
+}
+
+.flexCol--flex-layout__icon--header-artic{
+    padding:4px;
+    height: 47px;
+    width: 80px;
 }
